@@ -1,0 +1,32 @@
+package com.example.AdminService.service;
+
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.example.AdminService.model.Account;
+import com.example.AdminService.model.Customer;
+import com.example.AdminService.repo.AccountRepo;
+import com.example.AdminService.repo.CustomerRepo;
+
+@Service
+public class AdminServiceImpl implements AdminService{
+
+	@Autowired
+	AccountRepo repo;
+	
+	@Autowired
+	CustomerRepo repo1;
+	
+	@Override
+	public List<Account> findallAccounts() {
+		// TODO Auto-generated method stub
+		return repo.findAll();
+	}
+
+	@Override
+	public Account updateCustomer(Customer cust) {
+		// TODO Auto-generated method stub
+		return repo1.save();
+	}
+
+}

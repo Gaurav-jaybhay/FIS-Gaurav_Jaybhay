@@ -1,0 +1,5 @@
+package com.example.AdminService.repo;
+
+public interface CustomerRepo {
+
+}

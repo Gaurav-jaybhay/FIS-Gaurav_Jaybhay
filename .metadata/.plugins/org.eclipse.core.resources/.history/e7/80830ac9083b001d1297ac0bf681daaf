@@ -1,0 +1,10 @@
+package com.example.AdminService.service;
+
+import java.util.List;
+
+import com.example.AdminService.model.Account;
+
+public interface AdminService {
+	
+	public List<Account> findallAccounts();
+}

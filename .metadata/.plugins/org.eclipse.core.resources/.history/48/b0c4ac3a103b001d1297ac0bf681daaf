@@ -1,0 +1,5 @@
+package com.example.CustomerService.model;
+
+public class Transaction {
+
+}

@@ -1,0 +1,5 @@
+package com.example.AdminService.model;
+
+public class Account_Master {
+
+}

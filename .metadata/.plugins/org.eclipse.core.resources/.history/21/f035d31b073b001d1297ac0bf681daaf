@@ -1,0 +1,6 @@
+package com.example.AdminService.service;
+
+public class AdminService {
+	
+	public List<Account_Master> findallAccounts();
+}
